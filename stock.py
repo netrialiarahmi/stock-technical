@@ -181,10 +181,6 @@ def run_openai(timeframe,symbol,last_day_summary):
 
 def streamlit_app():
     st.set_page_config(layout="wide")
-    # with st.sidebar:
-    #     st.write("## Built By")
-    #     st.write("Name: Nyein Chan Ko Ko")
-    #     st.write("GitHub: (https://github.com/nchanko)")
     col1,col2,col3 = st.columns([1,3,1])
     with col1:
         st.image('stocklyzer.png',width=150)
